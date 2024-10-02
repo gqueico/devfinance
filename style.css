@@ -1,4 +1,8 @@
 /* global remove user-agent styling */
+:root {
+  --dark-blue: #363F5F;
+}
+
 * {
   margin: 0;
   padding: 0;
