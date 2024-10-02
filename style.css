@@ -38,3 +38,13 @@ header {
   color: #FFF;
   font-weight: 100;
 }
+
+/* balance styling */
+#balance {
+  margin-top: -8rem;
+}
+
+#balance h2 {
+  color: white;
+  margin-top: 0;
+}
