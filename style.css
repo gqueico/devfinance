@@ -73,3 +73,8 @@ header {
   background: #49AA26;
   color: white;
 }
+
+/* footer styling */
+footer {
+  text-align: center;
+}
