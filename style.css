@@ -19,6 +19,14 @@ body {
   margin: auto;
 }
 
+/* titles styling */
+h2 {
+  margin-top: 3.2rem;
+  margin-bottom: 0.8rem;
+  color: var(--dark-blue);
+  font-weight: normal;
+}
+
 /* header styling */
 header {
   background: #2D4A22;
