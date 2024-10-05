@@ -120,5 +120,8 @@ header {
 
 /* footer styling */
 footer {
+  padding: 4rem 0 2rem;
   text-align: center;
+  color: var(--dark-blue);
+  opacity: 0.6;
 }
