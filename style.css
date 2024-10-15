@@ -56,8 +56,7 @@ a:hover {
   color: var(--light-green);
 }
 
-button,
-.button {
+button {
   width: 100%;
   height: 50px;
   padding: 0;
@@ -82,9 +81,11 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 50px;
   background: initial;
   color: var(--red);
   border: 2px solid var(--red);
+  border-radius: .25rem;
   opacity: .6;
 }
 
@@ -210,6 +211,7 @@ header {
   background-color: rgba(0, 0, 0, 0.7);
   opacity: 0;
   visibility: hidden;
+  z-index: 1;
 }
 
 .modal-overlay.active {
@@ -263,7 +265,7 @@ footer {
   padding: 4rem 0 2rem;
   text-align: center;
   color: var(--dark-blue);
-  /* opacity: 0.6; */
+  opacity: 0.6;
 }
 
 /* responsive styling */
