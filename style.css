@@ -195,7 +195,7 @@ header {
 }
 
 .expense {
-  color: #E92929;
+  color: var(--red);
 }
 
 /* modal styling */
