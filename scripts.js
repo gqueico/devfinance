@@ -118,6 +118,10 @@ const DOM = {
 }
 
 const Utils = {
+  formatAmount(value) {
+    console.log(value)
+  },
+
   formatCurrency(value) {
     const signal = Number(value) < 0 ? '-' : ''
 
@@ -154,11 +158,20 @@ const Form = {
     }
   },
 
+  formatValues() {
+    let { description, amount, date } = Form.getValues()
+
+    amount = Utils.formatAmount(amount)
+  },
+
   submit(event) {
     event.preventDefault()
 
     try {
-      Form.validateFields()
+      // Form.validateFields()
+
+      Form.formatValues()
+
     } catch(error) {
       alert(error.message)
     }
