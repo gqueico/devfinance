@@ -119,7 +119,15 @@ const DOM = {
 
 const Utils = {
   formatAmount(value) {
-    console.log(value)
+    value = Number(value) * 100
+
+    return value
+  },
+
+  formatDate(date) {
+    const splittedDate = date.split('-')
+       
+    return `${splittedDate[2]}/${splittedDate[1]}/${splittedDate[0]}`
   },
 
   formatCurrency(value) {
@@ -162,6 +170,8 @@ const Form = {
     let { description, amount, date } = Form.getValues()
 
     amount = Utils.formatAmount(amount)
+
+    date = Utils.formatDate(date)
   },
 
   submit(event) {
