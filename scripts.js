@@ -172,16 +172,29 @@ const Form = {
     amount = Utils.formatAmount(amount)
 
     date = Utils.formatDate(date)
+
+    return {
+      description,
+      amount,
+      date
+    }
+  },
+
+  clearFields() {
+    Form.description.value = ''
+    Form.amount.value = ''
+    Form.date.value = ''
   },
 
   submit(event) {
     event.preventDefault()
 
     try {
-      // Form.validateFields()
-
-      Form.formatValues()
-
+      Form.validateFields()
+      const transaction = Form.formatValues()
+      Transaction.add(transaction)
+      Form.clearFields()
+      Modal.close()
     } catch(error) {
       alert(error.message)
     }
