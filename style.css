@@ -77,6 +77,10 @@ button:hover {
   margin-bottom: .8rem;
 }
 
+.remove {
+  cursor: pointer;
+}
+
 .button.cancel {
   display: flex;
   align-items: center;
