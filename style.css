@@ -190,6 +190,10 @@ header {
   background: white;
 }
 
+#data-table td img {
+  cursor: pointer;
+}
+
 .description {
   color: var(--dark-blue);
 }
