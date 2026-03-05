@@ -35,6 +35,12 @@ const Transaction = {
     App.reload()
   },
 
+  remove(index) {
+    Transaction.all.splice(index, 1)
+
+    App.reload()
+  },
+
   incomes() {
     let income = 0
 
