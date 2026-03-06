@@ -10,24 +10,22 @@ const Modal = {
   }
 }
 
-const transactions = [
-  {
-    id: 1,
-    description: 'Pagamento',
-    amount: 1000000,
-    date: '01/03/2026'
-  },
-
-  {
-    id: 2,
-    description: 'Aluguel',
-    amount: -200000,
-    date: '01/03/2026'
-  }
-]
-
 const Transaction = {
-  all: transactions,
+  all: [
+    {
+      id: 1,
+      description: 'Pagamento',
+      amount: 1000000,
+      date: '01/03/2026'
+    },
+
+    {
+      id: 2,
+      description: 'Aluguel',
+      amount: -200000,
+      date: '01/03/2026'
+    }
+  ],
 
   add(transaction) {
     Transaction.all.push(transaction)
