@@ -1,5 +1,3 @@
-<p align="center"><h1 align="center"> DevFinance💰</h1></p>
-
 <p align="center">
   <img src=".github/preview.png" width="100%">
 </p>
@@ -20,6 +18,8 @@
  <img src="https://img.shields.io/github/stars/gqueico/local_turistico?label=Stars&message=&color=E1624F&labelColor=000000" alt="Stars">
 </p>
 
+<p align="center"><h1 align="center">DevFinance💰</h1></p>
+
 ## 💻 Projeto
 
 Uma aplicação web simples para **controle financeiro pessoal**, permitindo registrar receitas e despesas, visualizar saldo e gerenciar transações.
@@ -28,11 +28,11 @@ O objetivo do projeto é praticar **JavaScript puro**, manipulação do **DOM** 
 
 ## ✨ Funcionalidades
 
-➕ Adicionar novas transações
-➖ Remover transações
-💰 Visualizar saldo total
-📊 Cálculo automático de **entradas e saídas**
-💾 Armazenamento de dados no navegador com **LocalStorage**
+➕ Adicionar novas transações  
+➖ Remover transações  
+💰 Visualizar saldo total  
+📊 Cálculo automático de **entradas e saídas**  
+💾 Armazenamento de dados no navegador com **LocalStorage**  
 📱 Interface simples e intuitiva
 
 ## 🪛 Tecnologias Utilizadas
